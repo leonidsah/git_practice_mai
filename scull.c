@@ -13,7 +13,8 @@ int scull_qset = 2000;
 
 struct scull_qset {
 	void **data;			
-	struct scull_qset *next; 	
+	struct scull_qset *next; 
+	struct scull_qset *prev; 	
 };
 
 struct scull_dev {
