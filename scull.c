@@ -7,9 +7,9 @@
 
 int scull_major = 0;		
 int scull_minor = 0;		
-int scull_nr_devs = 2;		
-int scull_quantum = 4000;	
-int scull_qset = 1000;		
+int scull_nr_devs = 4;		
+int scull_quantum = 8000;	
+int scull_qset = 2000;		
 
 struct scull_qset {
 	void **data;			
